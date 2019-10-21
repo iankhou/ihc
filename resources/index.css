@@ -2,16 +2,47 @@
   margin: 0;
 }
 
-body {
+body, html {
   margin: 0;
+  height: 100%;
 }
+
+figure {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  padding: 0.5em;
+  margin-bottom: 30px;
+}
+
+.centered-figure {
+    text-align: center;
+}
+
+img.reduced {
+    width: 100%;
+    height: 100%;
+}
+
+#image-enclosed {
+  margin-bottom: 0;
+}
+
 .parallax {
   background-image: url("ihc-background.JPG");
-  height: 900px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  position: relative;
 }
 
 .parallax h1 {
@@ -19,16 +50,18 @@ body {
 }
 
 .parallax-text {
+  top: 30%;
   background-attachment: fixed;
-  padding-top: 350px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  align-items: center;
   line-height: 5em;
-  max-width: 900px;
-  width: 90%;
   text-align: center;
   font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.5vw;
   color: white;
-  margin: auto;
 }
 
 #byline {

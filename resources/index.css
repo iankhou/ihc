@@ -16,11 +16,32 @@ figure {
   text-indent: 0;
   border: thin silver solid;
   padding: 0.5em;
-  margin-bottom: 30px;
 }
 
 .centered-figure {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.left-figure {
+    float:left;
+    margin-right: 1.5em;
+    margin-bottom: 0;
+    width: 30%;
+}
+
+.left-figure-small {
+    float:left;
+    margin-right: 1.5em;
+    margin-bottom: 0;
+    width: 20%;
+}
+
+.right-figure {
+    float: right;
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    width: 30%;
 }
 
 img.reduced {
@@ -74,6 +95,7 @@ img.reduced {
 p {
   margin-bottom: 30px;
   font-family: "Cormorant Garamond";
+  text-align: justify;
 }
 #article {
   margin: 0 auto;

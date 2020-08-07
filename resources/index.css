@@ -14,7 +14,7 @@ figure {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  border: thin silver solid;
+  border: none;
   padding: 0.5em;
 }
 
